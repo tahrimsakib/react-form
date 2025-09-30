@@ -7,7 +7,7 @@ const Grandpa = () => {
   return (
     <div className="border border-amber-700 p-4">
       <h4 className="text-2xl ">Grandpa</h4>
-      <section>
+      <section className="flex gap-6 justify-between">
         <Dad></Dad>
         <Uncle></Uncle>
         <Aunt></Aunt>
