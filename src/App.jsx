@@ -1,5 +1,6 @@
 import "./App.css";
 import ControlledField from "./Component/ControlledField";
+import FamilyTree from "./Component/FamilyTree/FamilyTree";
 import FormAction from "./Component/FormAction";
 import ProductM from "./Component/ProductManagement/ProductM";
 import SimpleForm from "./Component/SimpleForm";
@@ -11,7 +12,8 @@ function App() {
       <h1>React Form</h1>
       {/* <ControlledField></ControlledField> */}
       {/* <UnControlled></UnControlled> */}
-      <ProductM></ProductM>
+      {/* <ProductM></ProductM> */}
+      <FamilyTree></FamilyTree>
     </>
   );
 }
